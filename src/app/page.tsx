@@ -1,10 +1,11 @@
 // 1. import `NextUIProvider` component
-import {NextUIProvider} from "@nextui-org/react";
-import Header from "../components/Header";
+import Hero from "@/components/Hero";
+import NavBar from "@/components/NavBar";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <Header />
+    <main className="flex min-h-screen flex-col">
+      <NavBar />
+      <Hero />
     </main>
   );
 }
